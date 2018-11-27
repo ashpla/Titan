@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: segoe ui, sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin: 0;
+}
+
+header 
+{
+	background-color: #000000;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	
+}
+header h1{
+	margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#sec-hero{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	color: #fff;
+	background-image: url( ../img/finance_header_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 150px;
+	padding-bottom: 190px;
+
+}
+
+#sec-hero h4{
+	letter-spacing: 2px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#sec-hero h1{
+	letter-spacing: 15px;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+#sec-hero a {
+	
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-transform: uppercase; 
+	padding: 7px 40px;
+}
+#sec-hero h4,
+#sec-hero h1{
+	font-weight: 400;
+	
+
+}
+.btn-transparente{
+    background: transparent;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn-transparente:hover{
+	color: black;
+	background-color: #fff;
+}
+#sec-quote{
+	background:#181717;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #AAAAAA;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	
+}
+#sec-quote h3{
+	
+	font-size: 18px ;
+	letter-spacing: 1px ;
+	
+}
+#sec-quote h5 span{
+	background: black;
+	font-size: 12px ;
+	color: white;
+	letter-spacing: 1px ;
+	
+}
+.btn-transparent{
+    background:#C6BDBD; 
+	font-size: 11px ;
+	letter-spacing: 1px ;
+	text-transform: uppercase;
+	padding: 6px 40px;
+	margin-top: 10px ;
+	
+	border: 1px solid #000;
+}
+.btn-transparent:hover{
+	background-color: #fff;
+
+}
+.seq-espacio{
+	padding: 100px 0;
+}
+#seq-tittle h3{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+	font-family: bv;
+	
+}
+#seq-tittle p{
+	text-align: center;
+	font-size: 12px;
+}
+
+#seq-icons{
+	
+	background-image: url( ../img/finance_funfact_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+	padding:100px 0px ;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+#seq-icons h3{
+	margin-top: 25px;
+	font-size: 20px;
+}
+#seq-icons p{
+	margin-top: 25px;
+	font-weight: 20;
+	margin-bottom: 100px;
+}
+
+.border{
+	
+  border-radius:100px ;
+  border: 1px solid #fff ;
+	height: 80px;
+	width: 80px;
+}
+#sec-practice{
+	border-bottom: 1px solid #eee;
+}
+
+#sec-practice .bg-image{
+	background-image: url( ../img/section-practice-areas.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+}
+
+
+.titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #111;
+	margin-bottom: 40px;
+}
+
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice h3{
+	font-size: 14px;
+	color: #111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
